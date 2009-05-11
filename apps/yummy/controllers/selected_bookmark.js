@@ -12,5 +12,5 @@
 */
 Yummy.selectedBookmarkController = SC.ObjectController.create(
 /** @scope Yummy.selectedBookmarkController.prototype */ {
-	content: 'Yummy.bookmarksController.selection'
+	contentBinding: 'Yummy.bookmarksController.selection'
 }) ;
